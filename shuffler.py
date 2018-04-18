@@ -38,7 +38,7 @@ def move_files(datadir, train, valid, test):
 # SCRIPT
 if len(sys.argv) < 2:
     print("No data directory given\nUsage: \
-    python supercut_creator.py [datadir]")
+    python shuffler.py [datadir]")
     quit()
 else:
     datadir = sys.argv[1]
