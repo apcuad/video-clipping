@@ -1,4 +1,4 @@
-# video-clipping
+# data-preparation-for-LAMWITTY
 
 #####Setup
 brew install ffmpeg
@@ -11,8 +11,8 @@ To create video clips, create directory called Footage with 3 directories inside
 
 python supercut_creator.py [Movie file] [Annotation csv file]
 
-Exampled:
-python supercut_creator.py Marielos.MOV marielos.csv 
+Example:
+python supercut_creator.py p1.MOV p1.csv 
 
 
 
@@ -24,5 +24,5 @@ To create images, create directory called Images with 3 directories inside named
 
 python supercut_creator.py [Movie file] [Annotation csv file] true
 
-Exampled:
-python supercut_creator.py Marielos.MOV marielos.csv true
+Example:
+python supercut_creator.py p1.MOV p1.csv true
