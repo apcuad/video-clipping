@@ -9,7 +9,6 @@ import numpy as np
 
 def create_sets(datadir):
     all_files = os.listdir(os.path.abspath(datadir))
-    data_files = list(filter(lambda file: file.endswith('.data'), all_files))
     docs = np.array(all_files)
     idx = np.hstack((np.ones(.7*len(docs)), np.zeros(.3*len(docs))))
     np.random.shuffle(idx)
