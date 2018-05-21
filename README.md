@@ -33,4 +33,4 @@ Example:
 
 #####Shuffle videos
 
-If you want to evenly separate participants between training and validation sets, you can use this script to randomly move clips from each participant to the appropriate folders. This is useful to check that we can train the model to predict reactions from the same people, but in the end we should have different participants in the training and validation sets.
+If you want to evenly separate participants between training and validation sets, you can use the shuffler.py script to randomly move clips from each participant to the appropriate folders. This is useful to check that we can train the model to predict reactions from the same people, but in the end we should have different participants in the training and validation sets.
